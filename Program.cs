@@ -8,12 +8,10 @@ namespace efexample
         {
             using (var context = new DataContext())
             {
-                var entry = context.Entry(context.Tables["News"]);
 
                 
             }
-
-            Console.WriteLine("Hello World!");
         }
+
     }
 }
